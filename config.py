@@ -1,7 +1,8 @@
 # ==================== НАСТРОЙКИ БОТА ====================
-BOT_TOKEN =
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 
 # ==================== API-КЛЮЧИ OPENROUTER (15 слотов) ====================
+API_KEYS = os.getenv("AI_API_KEY")
     
 # ==================== КОНТАКТЫ (БЕЗ @) ====================
 TELEGRAM_USERNAME = "mila_joy_soul"
